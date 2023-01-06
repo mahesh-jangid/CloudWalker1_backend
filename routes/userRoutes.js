@@ -1,5 +1,5 @@
 import express from "express";
-import rateLimit from "express-rate-limit";
+
 const router = express.Router();
 import {
   adduserdata,
@@ -22,4 +22,3 @@ router
   .put(protect, updatedata);
 
 export default router;
-
